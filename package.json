@@ -1,0 +1,31 @@
+{
+  "name": "movie-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test --grep @api",
+    "test:e2e": "playwright test --grep @e2e",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:authorization": "playwright test --grep @authorization",
+    "test:pagination": "playwright test --grep @pagination"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksamitric/movie-automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aleksamitric/movie-automation/issues"
+  },
+  "homepage": "https://github.com/aleksamitric/movie-automation#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.1.2",
+    "dotenv": "^17.4.2"
+  }
+}
